@@ -4,8 +4,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
-import Login from './views/Login/Login.jsx';
-import Home from './views/Home/Home.jsx';
+import Login from './views/Login/Login';
+import Home from './views/Home/Home';
+import Products from './views/Products/Products';
+
 
 const router = createBrowserRouter([
   {
@@ -17,12 +19,12 @@ const router = createBrowserRouter([
     path: "/home",
     element: <Home/>,
   },
-/*
-  {
-    path: "/products",
-    element: <App />,
-  },
 
+  {
+    path: "/products/:productId",
+    element: <Products/>,
+  },
+/*
   {
     path: "/pay",
     element: <App />,
@@ -31,6 +33,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />npm 
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
