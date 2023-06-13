@@ -1,13 +1,19 @@
 $main-color: green;
 
 .home{
+    background-color: $main-color;
 
-    h1{
-        background-color:$main-color;
+    .container {
+        color: orange;
+
+        h1{
+
+        }
+
+        span{
+            
+        }
     }
 }
 
-:root{
-    --main: orange;
-}
 

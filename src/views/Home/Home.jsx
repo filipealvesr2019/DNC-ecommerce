@@ -4,7 +4,10 @@ import './index.scss';
 const Home = () => {
   return (
     <div className='home'>
-      <h1>Home</h1>
+<div className="container">
+  <h1>Home <span>!</span></h1>
+</div>
+      
       <button>
         <Link to={'/products/1'}>Produto</Link>
       </button>
