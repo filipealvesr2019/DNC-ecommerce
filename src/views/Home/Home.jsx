@@ -11,6 +11,10 @@ const Home = () => {
       <button>
         <Link to={'/products/1'}>Produto</Link>
       </button>
+
+      <button>
+        Testando main-button
+      </button>
       </div>
   )
 }

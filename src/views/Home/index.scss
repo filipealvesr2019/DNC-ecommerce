@@ -1,19 +1,15 @@
-$main-color: green;
-
+@use '../../sass/variables' as *;
+@use '../../sass/mixins' as *;
 .home{
     background-color: $main-color;
+    border-radius: $main-border-radius;
+    
 
-    .container {
-        color: orange;
-
-        h1{
-
-        }
-
-        span{
-            
-        }
+    button {
+        @include main-button($background: blue, $color:orange);
     }
+
+    
 }
 
 
