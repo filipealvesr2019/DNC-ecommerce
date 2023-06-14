@@ -12,7 +12,8 @@ const Home = () => {
         <Link to={'/products/1'}>Produto</Link>
       </button>
 
-      <button>
+      <button >
+        <Link to={'/pay'}></Link>
         Testando main-button
       </button>
       </div>
