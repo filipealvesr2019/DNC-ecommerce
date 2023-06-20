@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./index.scss"
 const Header = () => {
   return (
-    <div>
-      
+    <div className='header'>
+        <img src="logo.png" alt="dnc logo" />
     </div>
   )
 }
