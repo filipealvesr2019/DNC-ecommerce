@@ -27,8 +27,8 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/pay",
-    element: <Pay  title="contador" />,
+    path: "/pay/:payId",
+    element: <Pay />,
   },
 ]);
 
