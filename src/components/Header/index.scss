@@ -1,8 +1,8 @@
 @use '../../sass/variables' as *;
 .header{
-    padding: 66px;
+    padding: 1rem;
     background-color: $background-color;
     img{
-
+        width: 8%;
     }
 }

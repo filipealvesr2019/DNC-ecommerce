@@ -17,18 +17,30 @@ form{
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
-  width: 400px;
+  width: 25rem;
+  height: 2rem;
+  border-radius: 5px;
 }
 
-h1, h2{
+h1{
   font-family: 'Raleway';
   font-weight: 500;
   display: flex;
   justify-content: center;
   text-align: center;
   white-space: nowrap;
+  font-size: 1.2rem;
 }
 
+h2 {
+  font-family: 'Raleway';
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
 
 input[type="submit"]{
   background-color: #0C70F2;
@@ -36,4 +48,23 @@ input[type="submit"]{
   padding: 10px 15px;
   border: none;
   cursor: pointer;
+}
+
+
+label{
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
+button{
+  background-color: #0C70F2;
+  width: 25rem;
+  height: 2rem;
+  border-radius: 5px;
+
+
+}
+
+button[type="submit"]{
+  color: white;
 }

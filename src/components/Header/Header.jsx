@@ -3,7 +3,10 @@ import "./index.scss"
 const Header = () => {
   return (
     <div className='header'>
-        <img src="logo.png" alt="dnc logo" />
+        <img className='header__img' src="logo.png" alt="dnc logo" />
+        <div className='header__text'>
+          <p className='header__paragraph'></p>
+        </div>
     </div>
   )
 }
