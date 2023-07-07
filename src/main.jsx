@@ -11,15 +11,18 @@ import Pay from './views/Pay/Pay';
 
 
 const router = createBrowserRouter([
+  
+  {
+    path: "/home",
+    element: <Home/>,
+  },
+
   {
     path: "/",
     element: <Login />,
   },
 
-  {
-    path: "/home",
-    element: <Home/>,
-  },
+  
 
   {
     path: "/products/:productId",
