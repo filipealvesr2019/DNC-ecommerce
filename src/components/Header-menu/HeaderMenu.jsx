@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.scss";
-import logo from "../../assets/logo";
-import cartLogo from "../../assets/cartLogo";
+import logo from "../../public/logo";
+import cartshop from "../../assets/cartshop";
 const HeaderMenu = () => {
   return (
     <header className="classname header_menu">
@@ -15,7 +15,7 @@ const HeaderMenu = () => {
       </ul>
       <div className="header-menu__cart-shop">
         <h1>Meu Carrinho</h1>
-        <img src={cartLogo} alt="cartLogo" />
+        <img src={cartshop} alt="cartLogo" />
 
       </div>
     </header>

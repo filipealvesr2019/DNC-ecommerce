@@ -1,23 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './index.scss';
+import HeaderMenu from '../../components/Header-menu/HeaderMenu';
+import Search from '../../components/Search/Search';
 const Home = () => {
-  return (
-    <div className='home'>
-<div className="container">
-  <h1>Home <span>!</span></h1>
-</div>
-      
-      <button>
-        <Link to={'/products/1'}>Produto</Link>
-      </button>
-
-      <button >
-        <Link to={'/pay'}></Link>
-        Testando main-button
-      </button>
-      </div>
-  )
+  return <div className="home">
+    <HeaderMenu></HeaderMenu>
+    <Search></Search>
+  </div>
 }
 
-export default Home
+export default Home;
