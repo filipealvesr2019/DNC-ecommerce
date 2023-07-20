@@ -1,7 +1,7 @@
 import React from 'react';
 import "./index.scss";
-import logo from "logo/logo.png";
-import cartshop from "../../assets/cartshop";
+import logo from "/public/logo.png";
+import cartshop from "/src/assets/cartshop.png";
 const HeaderMenu = () => {
   return (
     <header className="classname header_menu">
