@@ -10,6 +10,9 @@ form{
   margin: 0 auto;
   margin-top: 5rem;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -26,9 +29,7 @@ form{
 h1{
   font-family: 'Raleway';
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+ 
   white-space: nowrap;
   font-size: 1.2rem;
 }
@@ -36,9 +37,7 @@ h1{
 h2 {
   font-family: 'Raleway';
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+ 
   white-space: nowrap;
   font-size: 0.8rem;
 }

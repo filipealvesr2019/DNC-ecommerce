@@ -4,7 +4,7 @@ import logo from "/public/logo.png";
 import cartshop from "/src/assets/cartshop.png";
 const HeaderMenu = () => {
   return (
-    <header className="classname header_menu">
+    <header className="header_menu">
       <img src={logo} alt="logo" className="header-menu_
       _logo" />
       <ul>
