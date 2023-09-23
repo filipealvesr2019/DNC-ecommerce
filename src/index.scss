@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   font-family: "Raleway";
+
 }
 
 
@@ -110,6 +111,18 @@ button[type="submit"]{
 
 .header_menu{
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
+.home__products{
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 20rem;
+  transform: translate(-8rem);  
+}

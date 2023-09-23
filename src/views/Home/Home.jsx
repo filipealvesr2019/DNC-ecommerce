@@ -9,10 +9,14 @@ const Home = ({data}) => {
   return <div className="home">
     <HeaderMenu></HeaderMenu>
     <Search></Search>
-    <div className="home__products">
+    <div className="home__products" >
+      <div className="grid-container">
       {
-        data.map(product => (<ProductsCard key={product.id} data={product}/>))
+        data.map(product => 
+          (<ProductsCard key={product.id} data={product}/>))
       }
+      </div>
+      
     </div>
     
   </div>

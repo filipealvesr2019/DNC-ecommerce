@@ -6,7 +6,7 @@ const HeaderMenu = () => {
   return (
     <header className="header_menu">
        <div className='left-section'>
-        <img src={logo} alt="logo icone" />
+        <img className='logo' src={logo} alt="logo icone" />
         <nav>
           <ul>
             <li>Home</li>
