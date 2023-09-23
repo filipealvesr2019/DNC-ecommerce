@@ -1,9 +1,10 @@
 import React from 'react'
 import "./index.scss"
+import logo from "/images/logo.png"
 const Header = () => {
   return (
     <div className='header'>
-        <img className='header__img' src="logo.png" alt="dnc logo" />
+        <img className='header__img' src={logo}alt="dnc logo" />
     </div>
   )
 }
