@@ -17,9 +17,8 @@ a{
 }
 
 .home__card{
-    display: grid;
-    grid-template-columns: 3, 1fr;
-    gap:4rem;
+    display: flex;
+    flex-direction: column;
 
  
 }
@@ -29,4 +28,6 @@ a{
     flex-direction: column;
     width: 15vw;
     transform: translate(8rem,-4rem);
+    
 }
+
