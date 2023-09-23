@@ -1,7 +1,7 @@
 import React from 'react'
 import "./index.scss"
 import profileLogo from "../../assets/heart.png"
-import searchLogo from "../../assets.search.png"
+import searchLogo from "../../assets/search.png"
 import favoriteLogo from "../../assets/cartshop.png"
 const Search = () => {
   return (
