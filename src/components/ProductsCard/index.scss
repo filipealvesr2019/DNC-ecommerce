@@ -17,8 +17,11 @@ a{
 }
 
 .home__card{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    gap:4rem;
+
+ 
 }
 
 .card-container{
