@@ -15,7 +15,9 @@
 }
 
 nav ul li{
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    transform: translate(0, 2rem);
+    padding: 1rem;
+
 
 }
