@@ -8,7 +8,10 @@ const ProductsCard = ({data}) => {
     <div className="home__card">
       <div className="space"></div>
       <div className="card-container">
-      <img className="image" src={data.imgPath} alt="" /><img/>
+        <div className="image-container">
+        <img className="image" src={data.imgPath} alt="" /><img/>
+        </div>
+      
         <div className="home__card-description">
             <p>{data.title}</p>
             <a href=""><button className="button">

@@ -16,12 +16,7 @@ a{
     font-weight: 800;
 }
 
-.home__card{
-    display: flex;
-    flex-direction: column;
 
- 
-}
 
 .card-container{
     display: flex;
@@ -31,3 +26,12 @@ a{
     
 }
 
+.image-container{
+    display: grid;
+    grid-template-columns: 4, 1fr;
+}
+
+.image {
+    width: 100%; 
+    height: auto; /* A altura se ajustará automaticamente de acordo com a largura */
+  }
