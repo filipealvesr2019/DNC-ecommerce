@@ -5,6 +5,7 @@ import HeaderMenu from '../../components/Header-menu/HeaderMenu';
 import Search from '../../components/Search/Search';
 import ProductsCard from '../../components/ProductsCard/ProductsCard';
 const Home = ({data}) => {
+  
   return <div className="home">
     <HeaderMenu></HeaderMenu>
     <Search></Search>
