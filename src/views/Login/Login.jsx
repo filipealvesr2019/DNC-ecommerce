@@ -29,7 +29,7 @@ const Login = () => {
       <label htmlFor="password">Senha:</label>
       <input type="password" id="password" placeholder="********" />
       <button type="submit">
-      <Link to={"/home"}>Entrar</Link>
+      <Link to={"/Home"}>Entrar</Link>
     </button>
     </div>
     
