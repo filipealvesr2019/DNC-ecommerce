@@ -73,17 +73,6 @@ button[type="submit"]{
   padding: 2rem;
   transform: translate(0, 5rem);
 }
-
-.image{
-  width: 20vw;
-}
-
-
-
-  .img{
-    width: 45%;
-  }
-
   
  
 
@@ -124,5 +113,6 @@ button[type="submit"]{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem 20rem;
-  transform: translate(-8rem);  
+  transform: translate(-8rem);
 }
+
