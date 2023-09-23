@@ -1,20 +1,21 @@
 @use '../../sass/variables' as *;
+
 .header_menu{
     display: flex;
-
-    justify-content: space-around;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+   background-color: #7A7A7A26;
 }
 
-.container-left{
+
+.left-section{
     display: flex;
     gap: 2rem;
-
 }
 
-
- li{
-    color: red;
+nav ul li{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+
 }
