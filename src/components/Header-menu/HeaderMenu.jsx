@@ -1,12 +1,12 @@
 import React from 'react';
 import "./index.scss";
-import logo from "/public/logo.png";
+import logo from "/images/logo.png";
 import cartshop from "/src/assets/cartshop.png";
 const HeaderMenu = () => {
   return (
     <header className="header_menu">
-      <img src={logo} alt="logo" className="header-menu_
-      _logo" />
+      <div className='container-left'>
+        <img src={logo} alt="" />
       <ul>
         <li>Home</li>
         <li>Novidades</li>
@@ -14,6 +14,8 @@ const HeaderMenu = () => {
         <li>Masculino</li>
         <li>Atendimento</li>
       </ul>
+      </div>
+      
       <div className="header-menu__cart-shop">
         <h1>Meu Carrinho</h1>
         <img src={cartshop} alt="cartLogo" />

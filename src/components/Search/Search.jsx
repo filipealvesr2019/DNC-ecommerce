@@ -1,8 +1,8 @@
 import React from 'react'
 import "./index.scss"
-import profileLogo from "../../assets/heart.png"
+import profileLogo from "../../assets/people.png"
 import searchLogo from "../../assets/search.png"
-import favoriteLogo from "../../assets/cartshop.png"
+import favoriteLogo from "../../assets/heart.png"
 const Search = () => {
   return (
     <div className="search">

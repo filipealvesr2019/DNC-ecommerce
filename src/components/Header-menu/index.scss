@@ -1,1 +1,20 @@
 @use '../../sass/variables' as *;
+.header_menu{
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.container-left{
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+ li{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
