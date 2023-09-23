@@ -10,7 +10,7 @@ const Search = () => {
         <img src={searchLogo} alt="search logo" className='search__search-logo'/>
         <input type="text" className="Search" />
       </div>
-
+      <div className='container-icone-right'></div>
       <img src={profileLogo} alt="profile Logo"/>
       <img src={favoriteLogo} alt="favorite Logo}" />
     </div>

@@ -17,7 +17,10 @@
 nav ul li{
     display: inline-block;
     transform: translate(0, 1REM);
-    padding-left: 1rem;
+    padding-left: 2rem;
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #000000;
 
 
 }
@@ -27,6 +30,10 @@ img{
 
 .header-menu-logo{
     display: flex;
+    font-family: "Raleway";
+    font-weight: 600;
+    color: #000000;
+    gap: 0.5rem;
 }
 
 .header-menu-logo img{

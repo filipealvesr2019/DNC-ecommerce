@@ -1,10 +1,11 @@
 @use "../../sass/variables" as *;
 
 .search {
-    padding-top: 52px;
+    padding-top: 4%;
+    padding-left: 10%;
     padding-bottom: 96px;
     display: flex;
-    column-gap: 35px;
+    column-gap: 20px;
     justify-content: center;
 
     &__input-container {
@@ -15,16 +16,21 @@
         position: absolute;
         left: 10px;
         top: 50%;
-        transform: translateY(-50%);
         font-size: 18px;
         color: gray;
+        width: 1vw;
+        transform: translate(50%, -50%);
     }
 
     input {
-        padding-left: 45px;
-        height: 48px;
-        width: 1096px;
-        border-radius: 10px;
+        padding-left: 1rem;
+        height: 4vh;
+        width: 75vw;
+        border-radius: 8px;
         border: 1px solid $input-color;
+    }
+
+    .container-icone-right img{
+        width: 1vw;
     }
 }
