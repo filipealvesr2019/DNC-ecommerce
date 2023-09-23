@@ -7,7 +7,8 @@ const ProductsCard = ({data}) => {
   return (
     <div className="home__card">
       <div className="space"></div>
-        <img src={data.imgPath} alt="" /><img/>
+      <div className="card-container">
+      <img src={data.imgPath} alt="" /><img/>
         <div className="home__card-description">
             <p>{data.title}</p>
             <a href=""><button className="button">
@@ -15,6 +16,8 @@ const ProductsCard = ({data}) => {
             </button></a>
             
         </div>
+      </div>
+        
     </div>
   )
 }
