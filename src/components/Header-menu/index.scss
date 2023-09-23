@@ -16,8 +16,20 @@
 
 nav ul li{
     display: inline-block;
-    transform: translate(0, 2rem);
-    padding: 1rem;
+    transform: translate(0, 1REM);
+    padding-left: 1rem;
 
 
+}
+img{
+    max-width: 8vw;
+}
+
+.header-menu-logo{
+    display: flex;
+}
+
+.header-menu-logo img{
+    max-width: 1.5rem;
+    transform: translateY(-0.4rem);
 }
