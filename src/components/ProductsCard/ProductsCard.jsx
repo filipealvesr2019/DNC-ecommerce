@@ -6,14 +6,15 @@ const ProductsCard = ({data}) => {
   
   return (
     <div className="home__card">
+      <div className="space"></div>
         <img src={data.imgPath} alt="" /><img/>
         <div className="home__card-description">
             <p>{data.title}</p>
-            <button>
+            <a href=""><button className="button">
                 <Link to={`/products/${data.id}`}>Comprar Look</Link>
-            </button>
+            </button></a>
+            
         </div>
-    console.log(data)
     </div>
   )
 }
