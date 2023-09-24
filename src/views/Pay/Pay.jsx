@@ -31,18 +31,16 @@ const Pay = ({ data }) => {
             <div className="pay-detail__format">
               <h2>Forma de Pagamento:</h2>
               <div className="pay-detail__pix">
-                <label htmlFor="pix">Pix</label>
                 <input type="checkbox" id="pix" name="format" />
+                <label htmlFor="pix">Pix</label>
               </div>
               <div className="pay-detail__boleto">
-              <label htmlFor="boleto">Boleto</label>
                 <input type="checkbox" id="boleto" name="format" />
-                
+                <label htmlFor="boleto">Boleto</label>
               </div>
               <div className="pay-detail__credit-card">
-                
-                <label htmlFor="credit-card">Cartão de Crédito</label>
                 <input type="checkbox" id="credit-card" name="format" />
+                <label htmlFor="credit-card">Cartão de Crédito</label>
               </div>
             </div>
 
@@ -68,4 +66,3 @@ const Pay = ({ data }) => {
 };
 
 export default Pay;
-
