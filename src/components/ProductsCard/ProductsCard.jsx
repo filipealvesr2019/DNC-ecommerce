@@ -4,16 +4,17 @@ import React from "react";
 
 const ProductsCard = ({ data }) => {
   return (
-    <div className="home__card">
+    <div className="home__card" >
       <div className="space"></div>
       <div className="card-container">
-        <div className="image-container">
+        <div className="image-container home__card" style={{border: "1px solid #ccc",
+            borderRadius: "5px",}}>
           <img className="image" src={data.imgPath} alt="" />
           <img />
         </div>
 
         <div
-          className="home__card-description"
+          className="home__card-description "
           style={{
             textAlign: "center",
             justifyContent: "center",
