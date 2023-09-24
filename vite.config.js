@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
 
   build: {
-    outDir: 'dnc-ecommerce',
+    outDir: 'DNC-ecommerce',
   },
 
 
