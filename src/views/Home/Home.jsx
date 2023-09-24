@@ -6,7 +6,7 @@ import Search from '../../components/Search/Search';
 import ProductsCard from '../../components/ProductsCard/ProductsCard';
 const Home = ({data}) => {
  
-  return <div className="home">
+  return ( <div className="home">
     <HeaderMenu></HeaderMenu>
     <Search></Search>
     <div className="home__products" >
@@ -20,6 +20,7 @@ const Home = ({data}) => {
     </div>
     
   </div>
+  )
 }
 
 export default Home;
