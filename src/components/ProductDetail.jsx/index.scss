@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-evenly;
   height: 70vh;
+  transform: translate(0, 3rem);
 
   &__cube-colors {
     display: flex;
@@ -61,9 +62,13 @@
 
   .h1{
     transform: translateY(-4rem);
+    text-align: center;
   }
-  .vertical-line {
-    border-left: 1px solid #000; /* Largura e cor da linha */
+  .horizontal-line {
+    border-bottom: 2px solid #D9D9D9;
+    width: 100%; 
+    transform: translateY(-3rem);
   }
+  
   
 }

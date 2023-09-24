@@ -20,7 +20,7 @@ const ProductDetail = ({ data }) => {
       </div>
       <div className="product-detail__right-side">
         <h1 className="h1">Informações Sobre o Produto</h1>
-        <div class="vertical-line"></div>
+        <div class="horizontal-line"></div>
         <h2>{data.price}</h2>
         <p>
           Cor:{" "}
