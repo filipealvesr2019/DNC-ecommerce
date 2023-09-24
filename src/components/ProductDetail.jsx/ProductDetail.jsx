@@ -7,7 +7,9 @@ const ProductDetail = ({ data }) => {
   return (
     <div className="product-detail">
       <div className="product-detail__left-side">
-        <div className="product-detail__card">
+        <div className="product-detail__card" style={{
+          borderRadius:"5px"
+        }}>
           <img src={data.imgPathDetail} alt={data.title} />
           <p>{data.title}</p>
         </div>

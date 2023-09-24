@@ -27,7 +27,7 @@ const Login = () => {
         className="login__input-name"
       />
       <label htmlFor="password">Senha:</label>
-      <input type="password" id="password" placeholder="********" />
+      <input type="password" id="password" placeholder="********" className="login__input-name"/>
       <button type="submit">
       <Link to={"/Home"}>Entrar</Link>
     </button>
