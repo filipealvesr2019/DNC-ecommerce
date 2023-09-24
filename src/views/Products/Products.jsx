@@ -7,7 +7,6 @@ import Search from '../../components/Search/Search';
 const Products = ({data}) => {
   const {productId} = useParams();
   const selectProduct = data.find((product) => product.id == productId)
-  console.log(params)
   return ( <div className="products">
   <HeaderMenu></HeaderMenu>
   <Search></Search>
