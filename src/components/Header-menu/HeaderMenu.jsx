@@ -1,23 +1,28 @@
 import React from 'react';
 import "./index.scss";
-import logo from "../../public/logo";
-import cartshop from "../../assets/cartshop";
+import logo from "/images/logo.png";
+import cartshop from "/src/assets/cartshop.png";
 const HeaderMenu = () => {
   return (
-    <header className="classname header_menu">
-      <img src={logo} alt="logo" className="header-menu__logo" />
-      <ul>
-        <li>Home</li>
-        <li>Novidades</li>
-        <li>Feminino</li>
-        <li>Masculino</li>
-        <li>Atendimento</li>
-      </ul>
-      <div className="header-menu__cart-shop">
-        <h1>Meu Carrinho</h1>
-        <img src={cartshop} alt="cartLogo" />
-
-      </div>
+    <header className="header_menu">
+       <div className='left-section'>
+        <img className='logo' src={logo} alt="logo icone" />
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Novidades</li>
+            <li>Feminino</li>
+            <li>Masculino</li>
+            <li>Atendimento</li>
+          </ul>
+        </nav>
+       </div>
+       <div className='right-section'>
+        <div className='header-menu-logo'>
+          <span>Meu Carrinho</span>
+          <img src={cartshop} alt="cart shop icone" />
+        </div>
+       </div>
     </header>
   )
 }

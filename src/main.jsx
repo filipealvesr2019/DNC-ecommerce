@@ -8,30 +8,32 @@ import Login from './views/Login/Login';
 import Home from './views/Home/Home';
 import Products from './views/Products/Products';
 import Pay from './views/Pay/Pay';
-
+import {PRODUCTS_MOCK} from "./mock/products.mock"
 
 const router = createBrowserRouter([
   
-  {
-    path: "/home",
-    element: <Home/>,
-  },
 
   {
     path: "/",
     element: <Login />,
   },
 
+  {
+    path: "/Home",
+    element: <Home data={PRODUCTS_MOCK}/>,
+  },
+
+ 
   
 
   {
     path: "/products/:productId",
-    element: <Products/>,
+    element: <Products data={PRODUCTS_MOCK}/>,
   },
 
   {
     path: "/pay/:payId",
-    element: <Pay />,
+    element: <Pay data={PRODUCTS_MOCK}/>,
   },
 ]);
 
