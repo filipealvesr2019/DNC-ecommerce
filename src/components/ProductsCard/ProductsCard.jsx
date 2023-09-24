@@ -8,7 +8,7 @@ const ProductsCard = ({ data }) => {
       <div className="space"></div>
       <div className="card-container">
         <div className="image-container home__card" style={{border: "1px solid #ccc",
-            borderRadius: "5px",}}>
+            borderRadius: "5px 5px 0 0",}}>
           <img className="image" src={data.imgPath} alt="" />
           <img />
         </div>
@@ -20,7 +20,7 @@ const ProductsCard = ({ data }) => {
             justifyContent: "center",
             border: "1px solid #ccc",
             height: "15vh",
-            borderRadius: "5px",
+            borderRadius: "0 0 5px 5px",
           }}
         >
           <p>{data.title}</p>
