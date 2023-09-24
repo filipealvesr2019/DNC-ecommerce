@@ -12,7 +12,7 @@ const ProductsCard = ({data}) => {
         <img className="image" src={data.imgPath} alt="" /><img/>
         </div>
       
-        <div className="home__card-description">
+        <div className="home__card-description" style={{border:"1px solid #ccc"}}>
             <p>{data.title}</p>
             <a href=""><button className="button">
                 <Link to={`/products/${data.id}`}>Comprar Look</Link>
